@@ -15,11 +15,7 @@ class CalendarsController < ApplicationController
   private
 
   def plan_params
-<<<<<<< HEAD
     params.require(:plans).permit(:date, :plan)
-=======
-    params.require(:calendars).permit(:date, :plan)
->>>>>>> parent of 9b1b72f (Issue4)
   end
 
   def getWeek
